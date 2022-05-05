@@ -2,7 +2,7 @@
 
 body {
     font-family: "JetBrains Mono", monospace;
-    font-size: 1vw;
+    font-size: 0.9vw;
     background: rgb(32, 32, 32);
     user-select: none; /* supported by Chrome and Opera */
     -webkit-user-select: none; /* Safari */
