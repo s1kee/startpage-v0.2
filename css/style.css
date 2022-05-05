@@ -56,7 +56,7 @@ a {
 }
 
 a:hover {
-    background-color: rgb(32, 32, 32);
+    background-color: rgb(24, 24, 24);
     border-radius: 10px;
     color: #c8bed1;
     text-decoration: none;
