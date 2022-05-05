@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
+
+body {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1vw;
+    background: rgb(32, 32, 32);
+    user-select: none; /* supported by Chrome and Opera */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    margin-left: 230px;
+    margin-right: auto;
+    margin-top: 17%;
+    justify-content: center;
+    max-width: 1460px;
+    max-height: 928px;
+}
+
+.column {
+    float: left;
+    width: 18%;
+    padding: 1.5%;
+}
+
+.row:after {
+    content: "";
+    display: grid;
+    clear: both;
+}
+
+@media screen and (max-width: 330px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(24, 24, 24, 0.8);
+    padding: 1rem 1rem 0.1rem 1rem;
+    text-align: center;
+    background-color: rgb(32, 32, 32);
+    border-radius: 0px 0pc 15px 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #d3cec1;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+a:hover {
+    background-color: rgb(32, 32, 32);
+    border-radius: 10px;
+    color: #c8bed1;
+    text-decoration: none;
+    text-shadow: 0 0 0;
+}
+
+img {
+    width: 100%;
+    max-height: 7vw;
+    object-fit: cover;
+    margin-bottom: -5%;
+    border-radius: 14px 14px 0px 0px;
+}
